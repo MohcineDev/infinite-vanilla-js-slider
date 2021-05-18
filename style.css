@@ -20,7 +20,6 @@ body {
     justify-content: center;
     overflow-x: hidden
 }
- 
 
 .btns {
     width: var(--slider-width);
@@ -79,7 +78,7 @@ body {
 .slider .card .img {
     width: 100%;
     height: 180px;
-    background: url('images/1.jpg');
+    background: url('https://images.wallpaperscraft.com/image/christmas_new_year_christmas_ornaments_cones_113729_1280x720.jpg') , url('images/1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -87,19 +86,19 @@ body {
 }
 
 .slider .card:nth-child(1) .img, .slider .card:nth-child(5) .img {
-    background-image: url('images/1.jpg');
+    background-image: url('https://images.wallpaperscraft.com/image/christmas_new_year_christmas_ornaments_cones_113729_1280x720.jpg') , url('images/1.jpg');
 }
 
 .slider .card:nth-child(2) .img, .slider .card:nth-child(6) .img {
-    background-image: url('images/2.jpg');
+     background-image: url('https://images.wallpaperscraft.com/image/cup_ocean_sand_133354_1280x720.jpg'), url('images/2.jpg');
 }
 
 .slider .card:nth-child(3) .img, .slider .card:nth-child(7) .img {
-    background-image: url('images/3.jpg');
+     background-image: url('https://images.wallpaperscraft.com/image/river_home_art_128746_1280x720.jpg'), url('images/3.jpg');
 }
 
 .slider .card:nth-child(4) .img, .slider .card:nth-child(8) .img {
-    background-image: url('images/4.jpg');
+     background-image: url('https://images.wallpaperscraft.com/image/wolf_moon_night_150508_1280x720.jpg') , url('images/4.jpg');
 }
 
 .slider .card>p:nth-of-type(1) {
@@ -208,7 +207,6 @@ body {
     .slides {
         transform: translateX(-450px);
     }
- 
     .slider .card {
         opacity: 1;
     }
