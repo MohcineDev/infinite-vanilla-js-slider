@@ -7,8 +7,7 @@ let index = 1
 let cardIndex = 2
 let slidewidth = null
 
-
-cards[cardIndex].classList.add('card-focus')
+ 
 
 btns.forEach(btn => btn.addEventListener('click', () => {
     slide(btn)
